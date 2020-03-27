@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_example/utils/InkWell_pictrue_util.dart';
 import 'package:flutter_example/utils/container_util.dart';
-import 'package:share/share.dart';
+// import 'package:share/share.dart';
 
 class ShareDemo extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class ShareDemo extends StatelessWidget {
           child: RaisedButton(
             onPressed: () {
               // 分享
-              Share.share('快带上朋友一起来战斗 https://3344game.com');
+              // Share.share('快带上朋友一起来战斗 https://3344game.com');
             },
             child: Text("点击分享"),
           ),

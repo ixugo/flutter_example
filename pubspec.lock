@@ -179,13 +179,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.16.1"
-  jpush_flutter:
-    dependency: "direct main"
-    description:
-      name: jpush_flutter
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "0.1.0"
   like_button:
     dependency: "direct main"
     description:
@@ -298,13 +291,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.5"
-  share:
-    dependency: "direct main"
-    description:
-      name: share
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "0.6.3+6"
   sky_engine:
     dependency: transitive
     description: flutter

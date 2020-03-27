@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jpush_flutter/jpush_flutter.dart';
+// import 'package:jpush_flutter/jpush_flutter.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 class MyProvider with ChangeNotifier {
@@ -12,15 +12,15 @@ class MyProvider with ChangeNotifier {
   //   print(regId);
   // }
 
-  final JPush jpush = new JPush();
-  initJpush() {
-    jpush.setup(
-      appKey: "6a186826d2955b47eb5071d1",
-      channel: "flutter_channel",
-      production: false,
-      debug: true, //是否打印debug日志
-    );
-  }
+  // final JPush jpush = new JPush();
+  // initJpush() {
+  //   jpush.setup(
+  //     appKey: "6a186826d2955b47eb5071d1",
+  //     channel: "flutter_channel",
+  //     production: false,
+  //     debug: true, //是否打印debug日志
+  //   );
+  // }
 
   //  Home bottomBar
   int currentIndex = 0;
