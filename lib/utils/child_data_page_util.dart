@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_syntax_view/flutter_syntax_view.dart';
 import 'package:sticky_headers/sticky_headers/widget.dart';
 
 import 'container_util.dart';
@@ -47,5 +48,34 @@ class _AddHeaderUtilState extends State<AddHeaderUtil> {
             // content: ChipDemo(),
           );
         });
+  }
+}
+
+class CodeView extends StatefulWidget {
+  CodeView(this.code, {this.title = "本页源码"});
+
+  final code;
+  final title;
+  @override
+  State<StatefulWidget> createState() => CodeViewState();
+}
+
+class CodeViewState extends State<CodeView> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+        backgroundColor: Colors.blueGrey[800],
+        elevation: 7,
+      ),
+      body: SyntaxView(
+        code: widget.code,
+        syntax: Syntax.DART,
+        syntaxTheme: SyntaxTheme.dracula(),
+        withZoom: true,
+        withLinesCount: true,
+      ),
+    );
   }
 }

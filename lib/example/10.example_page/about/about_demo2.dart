@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_example/utils/InkWell_pictrue_util.dart';
+import 'package:flutter_example/utils/container_util.dart';
 
 // 数据类
 class ExpansionPanelItem {
@@ -18,7 +20,7 @@ class __HelpState extends State<HelpDemo2> {
   // 初始化数据
   List<ExpansionPanelItem> _expansionPanelItems = <ExpansionPanelItem>[
     ExpansionPanelItem(
-        headerText: "JD 如何开启/关闭小程序",
+        headerText: "如何开启/关闭小程序",
         body: Container(
           padding: EdgeInsets.all(16.0),
           child: Text("解决方案, 仅供参考, 如有需要, 请至反馈页面"),
@@ -26,7 +28,7 @@ class __HelpState extends State<HelpDemo2> {
         ),
         isExpanded: false),
     ExpansionPanelItem(
-        headerText: "JD 如何分享给朋友",
+        headerText: "如何分享给朋友",
         body: Container(
           padding: EdgeInsets.all(16.0),
           child: Text("解决方案, 仅供参考, 如有需要, 请至反馈页面"),
@@ -106,6 +108,19 @@ class __HelpState extends State<HelpDemo2> {
         iconTheme: IconThemeData(color: Colors.black),
       ),
       body: _question(context),
+    );
+  }
+}
+
+class HelpDocument2 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: <Widget>[
+        MyText("解决方案"),
+        InkWellPictrue(
+            "http://img.golang.space/PicGo/2020-03-09-s02-share.png"),
+      ],
     );
   }
 }

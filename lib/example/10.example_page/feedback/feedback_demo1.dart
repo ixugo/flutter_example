@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_example/utils/InkWell_pictrue_util.dart';
+import 'package:flutter_example/utils/container_util.dart';
 import 'package:flutter_example/utils/heightAndWidth.dart';
 
 class FeedbackDemo1 extends StatefulWidget {
@@ -88,5 +90,18 @@ class _State extends State<FeedbackDemo1> {
             ),
           );
         }));
+  }
+}
+
+class FeedbackDocument1 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: <Widget>[
+        MyText("反馈意见"),
+        InkWellPictrue(
+            "http://img.golang.space/PicGo/2020-03-09-s02-share.png"),
+      ],
+    );
   }
 }

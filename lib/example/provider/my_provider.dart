@@ -3,37 +3,18 @@ import 'package:flutter/material.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 class MyProvider with ChangeNotifier {
-  // 极光推送
-  // initJpush() async {
-  //   print("初始化 jpush");
-  //   await FlutterJPush.startup();
-  //   print("初始化成功 jpush");
-  //   var regId = await FlutterJPush.getRegistrationID();
-  //   print(regId);
-  // }
-
-  // final JPush jpush = new JPush();
-  // initJpush() {
-  //   jpush.setup(
-  //     appKey: "6a186826d2955b47eb5071d1",
-  //     channel: "flutter_channel",
-  //     production: false,
-  //     debug: true, //是否打印debug日志
-  //   );
-  // }
-
-  //  Home bottomBar
-  int currentIndex = 0;
-
   changeBottomBar(int index) {
     currentIndex = index;
     notifyListeners();
   }
 
-// 菜单切换
+// 详情页的底部弹出框菜单切换
   PanelController panelController = PanelController();
 
+  // 当前分类下的某个详情页
   int menuIndex = 0;
+
+  // 改变详情页, 并关闭弹出框
   changeMenu(int i) {
     menuIndex = i;
     panelController.close();
@@ -46,4 +27,11 @@ class MyProvider with ChangeNotifier {
 
     notifyListeners();
   }
+
+  // 页面切换时, 锁定数组下标
+  // 解决切换不同页面时, 下标越界问题
+  int pageIndexOfArray;
+
+  //  首页的底部工具栏切换
+  int currentIndex = 0;
 }
