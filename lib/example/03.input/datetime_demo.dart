@@ -116,12 +116,12 @@ class DateTimeDocument extends StatelessWidget {
         MyText("日期"),
         MyText("必须在 pubspec.yaml 文件的 dependencies 下,\n添加 intl: 0.16.1"),
         InkWellPictrue(
-          "http://media.xiexblog.top/PicGo/2020-03-04-date1.png",
+          "http://img.golang.space/PicGo/2020-03-04-date1.png",
         ),
-        InkWellPictrue("http://media.xiexblog.top/PicGo/2020-03-04-date2.png"),
+        InkWellPictrue("http://img.golang.space/PicGo/2020-03-04-date2.png"),
         MyText("时间"),
-        InkWellPictrue("http://media.xiexblog.top/PicGo/2020-03-04-time1.png"),
-        InkWellPictrue("http://media.xiexblog.top/PicGo/2020-03-04-time2.png"),
+        InkWellPictrue("http://img.golang.space/PicGo/2020-03-04-time1.png"),
+        InkWellPictrue("http://img.golang.space/PicGo/2020-03-04-time2.png"),
         MyHtml(datetimedocument)
       ],
     );

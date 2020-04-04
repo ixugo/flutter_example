@@ -48,7 +48,7 @@ class FloatingActionButtonDocument extends StatelessWidget {
     return Column(
       children: <Widget>[
         MyText("复选框"),
-        InkWellPictrue("http://media.xiexblog.top/PicGo/mhmcf.png"),
+        InkWellPictrue("http://img.golang.space/PicGo/mhmcf.png"),
       ],
     );
   }

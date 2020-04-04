@@ -110,10 +110,10 @@ class SimpleDialogDocument extends StatelessWidget {
         ),
         MyText("调用", alignment: Alignment.centerLeft),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-04-simpleDialog1.png"),
+            "http://img.golang.space/PicGo/2020-03-04-simpleDialog1.png"),
         MyText("方法", alignment: Alignment.centerLeft),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-04-simpleDialog2.png"),
+            "http://img.golang.space/PicGo/2020-03-04-simpleDialog2.png"),
         MyHtml(simpledialogdemo)
       ],
     );

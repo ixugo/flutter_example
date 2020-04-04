@@ -107,9 +107,9 @@ class CheckboxDocument extends StatelessWidget {
     return Column(
       children: <Widget>[
         MyText("Checkbox"),
-        InkWellPictrue("http://media.xiexblog.top/PicGo/mhmcf.png"),
+        InkWellPictrue("http://img.golang.space/PicGo/mhmcf.png"),
         MyText("CheckboxListTile"),
-        InkWellPictrue("http://media.xiexblog.top/PicGo/kdwcz.png"),
+        InkWellPictrue("http://img.golang.space/PicGo/kdwcz.png"),
         MyHtml(checkoutdocument)
       ],
     );

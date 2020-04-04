@@ -131,7 +131,7 @@ class SetpperDocument extends StatelessWidget {
       children: <Widget>[
         MyText("Stepper"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-09-s-52-setpper.png"),
+            "http://img.golang.space/PicGo/2020-03-09-s-52-setpper.png"),
         MyHtml(document)
       ],
     );

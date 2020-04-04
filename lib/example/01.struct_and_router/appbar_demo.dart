@@ -94,7 +94,7 @@ class AppbarDocument extends StatelessWidget {
       children: <Widget>[
         MyText("AppBar"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-10-s47-appbar.png"),
+            "http://img.golang.space/PicGo/2020-03-10-s47-appbar.png"),
         MyHtml(document)
       ],
     );

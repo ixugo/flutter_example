@@ -33,7 +33,7 @@ class _CardTheDemoState extends State<CardTheDemo> {
             // 图片
             child: ClipRRect(
                 child: Image.network(
-                  "http://media.xiexblog.top/PicGo/2020-03-06-v2-2575ed44417393b06cf00ab42f4c55e4_r.jpg",
+                  "http://img.golang.space/PicGo/2020-03-06-v2-2575ed44417393b06cf00ab42f4c55e4_r.jpg",
                   fit: BoxFit.cover,
                 ),
                 // 圆角
@@ -44,7 +44,7 @@ class _CardTheDemoState extends State<CardTheDemo> {
           ListTile(
             leading: CircleAvatar(
               backgroundImage: NetworkImage(
-                  "http://media.xiexblog.top/PicGo/2020-03-06-v2-2575ed44417393b06cf00ab42f4c55e4_r.jpg"),
+                  "http://img.golang.space/PicGo/2020-03-06-v2-2575ed44417393b06cf00ab42f4c55e4_r.jpg"),
             ),
             title: Text("吉他女孩"),
             subtitle: Text("图片来源于网络"),
@@ -105,7 +105,7 @@ class CardDocument extends StatelessWidget {
           "Card",
         ),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-09-s-28-card.png"),
+            "http://img.golang.space/PicGo/2020-03-09-s-28-card.png"),
         MyHtml(document)
       ],
     );

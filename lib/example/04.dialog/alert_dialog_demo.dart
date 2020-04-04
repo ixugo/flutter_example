@@ -122,13 +122,13 @@ class AlertDialogDocument extends StatelessWidget {
           alignment: Alignment.centerLeft,
         ),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-04-AlertDialog1.png"),
+            "http://img.golang.space/PicGo/2020-03-04-AlertDialog1.png"),
         MyText(
           "方法",
           alignment: Alignment.centerLeft,
         ),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-04-AlertDialog2.png"),
+            "http://img.golang.space/PicGo/2020-03-04-AlertDialog2.png"),
         MyHtml(alertdialogdemo),
       ],
     );

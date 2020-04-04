@@ -111,7 +111,7 @@ class TabbarDocument extends StatelessWidget {
           alignment: Alignment.centerLeft,
         ),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-10-s53-tabbar.png"),
+            "http://img.golang.space/PicGo/2020-03-10-s53-tabbar.png"),
         MyHtml(document)
       ],
     );

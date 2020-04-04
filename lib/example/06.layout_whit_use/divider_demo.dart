@@ -10,7 +10,7 @@ class DividerDocument extends StatelessWidget {
       children: <Widget>[
         MyText("Divider"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-09-s42-divier.png"),
+            "http://img.golang.space/PicGo/2020-03-09-s42-divier.png"),
       ],
     );
   }

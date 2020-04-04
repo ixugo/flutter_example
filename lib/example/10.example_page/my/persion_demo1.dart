@@ -17,7 +17,7 @@ class __MyInfoState extends State<PersionDemo1> {
     };
 
     var theImage =
-        "http://media.xiexblog.top/PicGo/2020-03-12-s54-v2-2575ed44417393b06cf00ab42f4c55e4_r.jpg";
+        "http://img.golang.space/PicGo/2020-03-12-s54-v2-2575ed44417393b06cf00ab42f4c55e4_r.jpg";
 
     return Container(
         decoration: BoxDecoration(

@@ -120,13 +120,13 @@ class ExpansionPanelDocument extends StatelessWidget {
         MyText("ExpansionPanel"),
         MyText("调用", alignment: Alignment.centerLeft),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-04-expansionPanel1.png"),
+            "http://img.golang.space/PicGo/2020-03-04-expansionPanel1.png"),
         MyText("列表参数初始化", alignment: Alignment.centerLeft),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-04-expansionPanel2.png"),
+            "http://img.golang.space/PicGo/2020-03-04-expansionPanel2.png"),
         MyText("参数类", alignment: Alignment.centerLeft),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-04-expansionPanel3.png"),
+            "http://img.golang.space/PicGo/2020-03-04-expansionPanel3.png"),
         MyHtml(expansionpaneldocument)
       ],
     );

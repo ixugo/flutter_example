@@ -118,10 +118,10 @@ class BottomSheetDocument extends StatelessWidget {
         MyText("BottomSheet"),
         MyText("调用", alignment: Alignment.centerLeft),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-04-bottomSheet1.png"),
+            "http://img.golang.space/PicGo/2020-03-04-bottomSheet1.png"),
         MyText("方法", alignment: Alignment.centerLeft),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-04-bottomSheet2.png"),
+            "http://img.golang.space/PicGo/2020-03-04-bottomSheet2.png"),
         MyHtml(bottomsheetdocument)
       ],
     );

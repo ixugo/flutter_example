@@ -43,7 +43,7 @@ class _ExampleState extends State<DrawerDemo> {
               accountEmail: Text("@qq.com"), // 用户名和邮箱
               currentAccountPicture: CircleAvatar(
                 backgroundImage: NetworkImage(
-                    "http://media.xiexblog.top/PicGo/20200211165820.png"),
+                    "http://img.golang.space/PicGo/20200211165820.png"),
               ), // 用户头像
             ),
             ListTile(
@@ -119,10 +119,10 @@ class DrawerDocument extends StatelessWidget {
       children: <Widget>[
         MyText("Drawer"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-10-s22-drawer1.png"),
+            "http://img.golang.space/PicGo/2020-03-10-s22-drawer1.png"),
         MyText("UserAccountsDrawerHeader"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-10-s15-drawer2.png"),
+            "http://img.golang.space/PicGo/2020-03-10-s15-drawer2.png"),
         MyHtml(document)
       ],
     );

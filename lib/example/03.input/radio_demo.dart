@@ -139,9 +139,9 @@ class RadioDocument extends StatelessWidget {
     return Column(
       children: <Widget>[
         MyText("Radio"),
-        InkWellPictrue("http://media.xiexblog.top/PicGo/mkw5k.png"),
+        InkWellPictrue("http://img.golang.space/PicGo/mkw5k.png"),
         MyText("RadioListTile"),
-        InkWellPictrue("http://media.xiexblog.top/PicGo/kng5p.png"),
+        InkWellPictrue("http://img.golang.space/PicGo/kng5p.png"),
         MyHtml(radiodocument)
       ],
     );

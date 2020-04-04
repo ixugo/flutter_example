@@ -257,25 +257,25 @@ class DataTableDocument extends StatelessWidget {
           "数据-列表定义",
         ),
         InkWellPictrue(
-          "http://media.xiexblog.top/PicGo/2020-03-09-s-36-dataTable1.png",
+          "http://img.golang.space/PicGo/2020-03-09-s-36-dataTable1.png",
         ),
         MyText(
           "DataTable",
         ),
         InkWellPictrue(
-          "http://media.xiexblog.top/PicGo/2020-03-09-s-42-dataTable2.png",
+          "http://img.golang.space/PicGo/2020-03-09-s-42-dataTable2.png",
         ),
         MyText(
           "数据-继承 DataTableSource",
         ),
         InkWellPictrue(
-          "http://media.xiexblog.top/PicGo/2020-03-09-s-05-dataTable3.png",
+          "http://img.golang.space/PicGo/2020-03-09-s-05-dataTable3.png",
         ),
         MyText(
           "PaginatedDataTable",
         ),
         InkWellPictrue(
-          "http://media.xiexblog.top/PicGo/2020-03-09-s-11-dataTable4.png",
+          "http://img.golang.space/PicGo/2020-03-09-s-11-dataTable4.png",
         ),
         MyHtml(document)
       ],

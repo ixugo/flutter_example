@@ -168,10 +168,10 @@ class BottomNavigationBarDocument extends StatelessWidget {
       children: <Widget>[
         MyText("BottomNavigationBar"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-10-s27-bottomNavigationbar.png"),
+            "http://img.golang.space/PicGo/2020-03-10-s27-bottomNavigationbar.png"),
         MyText("BottomAppBar"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-12-s18-bottomnavigation2.png"),
+            "http://img.golang.space/PicGo/2020-03-12-s18-bottomnavigation2.png"),
         MyHtml(document)
       ],
     );

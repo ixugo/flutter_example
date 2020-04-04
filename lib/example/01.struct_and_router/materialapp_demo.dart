@@ -100,7 +100,7 @@ class MaterialAppDocument extends StatelessWidget {
       children: <Widget>[
         MyText("MaterialApp"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-10-s59-materialApp.png"),
+            "http://img.golang.space/PicGo/2020-03-10-s59-materialApp.png"),
         MyHtml(document)
       ],
     );

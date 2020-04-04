@@ -32,7 +32,7 @@ class ShareDocument extends StatelessWidget {
       children: <Widget>[
         MyText("Share  分享"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-09-s02-share.png"),
+            "http://img.golang.space/PicGo/2020-03-09-s02-share.png"),
         MyText("要使用此插件，请在pubspec.yaml文件中添加share为依赖项。"),
         MyText("share 0.6.3+6"),
       ],

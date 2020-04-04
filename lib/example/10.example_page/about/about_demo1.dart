@@ -22,7 +22,7 @@ class AboutDemo1 extends StatelessWidget {
             children: <Widget>[
               SizedBox(height: Apps.windowsHeight * 0.1),
               Image.network(
-                "http://media.xiexblog.top/PicGo/2020-03-12-s54-v2-2575ed44417393b06cf00ab42f4c55e4_r.jpg",
+                "http://img.golang.space/PicGo/2020-03-12-s54-v2-2575ed44417393b06cf00ab42f4c55e4_r.jpg",
                 height: 80,
               ),
               SizedBox(height: 24),

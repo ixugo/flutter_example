@@ -29,7 +29,7 @@ class StatusBarDocument extends StatelessWidget {
         MyText("沉浸式状态栏"),
         MyText("注 : 顺序必须放在 runapp 后面"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-10-s59-statusbar.png")
+            "http://img.golang.space/PicGo/2020-03-10-s59-statusbar.png")
       ],
     );
   }

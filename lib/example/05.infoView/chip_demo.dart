@@ -220,26 +220,26 @@ class ChipDocument extends StatelessWidget {
       children: <Widget>[
         MyText("数据定义"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-09-s-54-Chip0.png"),
+            "http://img.golang.space/PicGo/2020-03-09-s-54-Chip0.png"),
         MyText("Chip"),
         InkWellPictrue(
-          "http://media.xiexblog.top/PicGo/2020-03-09-s-12-Chip1.png",
+          "http://img.golang.space/PicGo/2020-03-09-s-12-Chip1.png",
         ),
         MyText("增删"),
         InkWellPictrue(
-          "http://media.xiexblog.top/PicGo/2020-03-09-s-21-Chip2.png",
+          "http://img.golang.space/PicGo/2020-03-09-s-21-Chip2.png",
         ),
         MyText("ActionChip"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-09-s-11-Chip3.png"),
+            "http://img.golang.space/PicGo/2020-03-09-s-11-Chip3.png"),
         MyText(
           "FilterChip",
         ),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-09-s-17-Chip4.png"),
+            "http://img.golang.space/PicGo/2020-03-09-s-17-Chip4.png"),
         MyText("ChoiceChip"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-09-s-57-Divider.png"),
+            "http://img.golang.space/PicGo/2020-03-09-s-57-Divider.png"),
         MyHtml(chipdocument)
       ],
     );

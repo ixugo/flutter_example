@@ -77,8 +77,7 @@ class SnackbarDocument extends StatelessWidget {
     return Column(
       children: <Widget>[
         MyText("Snackbar"),
-        InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-04-Snackbar.png"),
+        InkWellPictrue("http://img.golang.space/PicGo/2020-03-04-Snackbar.png"),
         MyHtml(snackbardocument),
       ],
     );

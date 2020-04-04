@@ -78,7 +78,7 @@ class ScaffolDocument extends StatelessWidget {
       children: <Widget>[
         MyText("Scaffold"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-10-s51-scaffold.png"),
+            "http://img.golang.space/PicGo/2020-03-10-s51-scaffold.png"),
         MyHtml(document)
       ],
     );

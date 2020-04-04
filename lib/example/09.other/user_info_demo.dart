@@ -116,14 +116,14 @@ class _ExampleState extends State<UserInfoDemo> {
   @override
   Widget build(BuildContext context) {
     var theImage =
-        "http://media.xiexblog.top/PicGo/2020-03-12-s54-v2-2575ed44417393b06cf00ab42f4c55e4_r.jpg";
+        "http://img.golang.space/PicGo/2020-03-12-s54-v2-2575ed44417393b06cf00ab42f4c55e4_r.jpg";
     // 使用 container 包裹 Scaffold 或 Scaffold 包裹 material , 背景图片就会填充至状态栏
     return Container(
         height: 600,
         decoration: BoxDecoration(
           image: DecorationImage(
             image: NetworkImage(
-                "http://media.xiexblog.top/PicGo/2020-03-12-s43-202358hdi5iw54xz00o05q.png"),
+                "http://img.golang.space/PicGo/2020-03-12-s43-202358hdi5iw54xz00o05q.png"),
             fit: BoxFit.cover,
           ),
         ),
@@ -200,7 +200,7 @@ class UserInfoDocument extends StatelessWidget {
       children: <Widget>[
         MyText("用户信息"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-12-s49-userinfo.png"),
+            "http://img.golang.space/PicGo/2020-03-12-s49-userinfo.png"),
       ],
     );
   }

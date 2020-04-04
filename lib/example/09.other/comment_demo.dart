@@ -100,13 +100,13 @@ class CommentDocument extends StatelessWidget {
         MyText(" 评论"),
         MyText("1 创建工具类, 用于底部弹窗"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-11-s41-comment1.png"),
+            "http://img.golang.space/PicGo/2020-03-11-s41-comment1.png"),
         MyText("2 组件"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-11-s49-comment2.png"),
+            "http://img.golang.space/PicGo/2020-03-11-s49-comment2.png"),
         MyText("3 应用"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-11-s55-comment3.png"),
+            "http://img.golang.space/PicGo/2020-03-11-s55-comment3.png"),
         Text("关键点 TextField 设置 maxline:null, 父组件不设置高度, 即可随着行数自动增加高度")
       ],
     );

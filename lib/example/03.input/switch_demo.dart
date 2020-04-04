@@ -88,10 +88,10 @@ class SwitchDocument extends StatelessWidget {
     return Column(
       children: <Widget>[
         MyText("Switch"),
-        InkWellPictrue("http://media.xiexblog.top/PicGo/2020-03-04-switch.png"),
+        InkWellPictrue("http://img.golang.space/PicGo/2020-03-04-switch.png"),
         MyText("SwitchListTile"),
         InkWellPictrue(
-            "http://media.xiexblog.top/PicGo/2020-03-04-switchListTile.png"),
+            "http://img.golang.space/PicGo/2020-03-04-switchListTile.png"),
         MyHtml(
           switchdocument,
         )
