@@ -28,8 +28,6 @@
 .pub-cache/
 .pub/
 /build/
-/lib/main.dart
-/lib/src/
 # Android related
 **/android/**/gradle-wrapper.jar
 **/android/.gradle
@@ -72,11 +70,3 @@
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
-lib/main.dart
-lib/src/
-lib/main.dart
-lib/src/dataSource.dart
-lib/src/forwarding.dart
-lib/src/home.dart
-lib/src/newForwarding.dart
-lib/src/settings.dart
