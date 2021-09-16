@@ -33,7 +33,6 @@ class _SwitchDemoState extends State<SwitchDemo> {
                 }),
             Text(
               _switchItemA ? "😋" : "😳",
-              style: Theme.of(context).textTheme.title,
             ),
           ])),
       MyText("SwitchListTile"),

@@ -24,7 +24,7 @@ class ContainerText extends StatelessWidget {
             child: Text(
               title,
               textAlign: TextAlign.left,
-              style: Theme.of(context).textTheme.title,
+              // style: Theme.of(context).textTheme.title,
             ),
           ),
           // Divider(
@@ -67,7 +67,7 @@ class MyTextDescortion extends StatelessWidget {
       padding: const EdgeInsets.only(top: 5, left: 15),
       child: Text(
         title,
-        style: Theme.of(context).accentTextTheme.body1,
+        // style: Theme.of(context).accentTextTheme.body1,
       ),
     );
   }
@@ -86,7 +86,7 @@ class MyText extends StatelessWidget {
       padding: const EdgeInsets.only(left: 15, right: 15, bottom: 5),
       child: Text(
         title,
-        style: Theme.of(context).accentTextTheme.body1,
+        // style: Theme.of(context).accentTextTheme.body1,
       ),
     );
   }
@@ -102,7 +102,7 @@ class MyHtml extends StatelessWidget {
       padding: EdgeInsets.only(left: 20, right: 20, bottom: 20),
       child: Html(
         data: value,
-        defaultTextStyle: Theme.of(context).accentTextTheme.body1,
+        // defaultTextStyle: Theme.of(context).accentTextTheme.body1,
       ),
     );
   }

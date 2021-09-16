@@ -229,7 +229,7 @@ class HomeTab2 extends StatelessWidget {
               SizedBox(height: 16),
               Text(
                 "Flutter 日记",
-                style: Theme.of(context).textTheme.title,
+                // style: Theme.of(context).textTheme.title,
               ),
               SizedBox(height: 32),
               Divider(height: 0),

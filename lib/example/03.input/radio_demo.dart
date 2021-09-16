@@ -55,8 +55,9 @@ class _RadioDemoState extends State<RadioDemo> {
       MyText("RadioListTile"),
       CardMargin(
           child: Column(children: <Widget>[
-        Text("RadioGroupValue:$_radioGroupB",
-            style: Theme.of(context).accentTextTheme.body1),
+        Text(
+          "RadioGroupValue:$_radioGroupB",
+        ),
         RadioListTile(
           value: 0,
           groupValue: _radioGroupB,

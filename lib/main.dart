@@ -16,7 +16,7 @@ void main() {
     MultiProvider(
       providers: [ChangeNotifierProvider.value(value: model)],
       // 用于弹窗
-      child: BotToastInit(child: MyApp()),
+      child: MyApp(),
     ),
   );
   // 极光推送
@@ -36,23 +36,24 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       navigatorObservers: [BotToastNavigatorObserver()],
+      builder: BotToastInit(),
       debugShowCheckedModeBanner: true, // 右上角 debug 测试
       title: 'Flutter日记', // 任务管理器内显示标题
       // home: HomePage(title: 'Flutter Example'),
       theme: ThemeData(
         //  主题
         primaryColor: Colors.blue,
-        accentColor: Colors.lightBlue,
-        accentTextTheme: TextTheme(
-          title: TextStyle(
-              fontSize: 18.0, fontWeight: FontWeight.w400, color: Colors.black),
-          body1: TextStyle(fontSize: 14.0, fontWeight: FontWeight.w300),
-        ),
-        textTheme: TextTheme(
-          title: TextStyle(
-              fontSize: 16, fontWeight: FontWeight.w500, color: Colors.black),
-          body1: TextStyle(fontSize: 14.0, fontWeight: FontWeight.w400), // 文本
-        ),
+        // accentColor: Colors.lightBlue,
+        // accentTextTheme: TextTheme(
+        //   title: TextStyle(
+        //       fontSize: 18.0, fontWeight: FontWeight.w400, color: Colors.black),
+        //   body1: TextStyle(fontSize: 14.0, fontWeight: FontWeight.w300),
+        // ),
+        // textTheme: TextTheme(
+        //   title: TextStyle(
+        //       fontSize: 16, fontWeight: FontWeight.w500, color: Colors.black),
+        //   body1: TextStyle(fontSize: 14.0, fontWeight: FontWeight.w400), // 文本
+        // ),
       ),
       initialRoute: "/", // 初始路由
       routes: {
