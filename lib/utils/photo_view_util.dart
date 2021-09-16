@@ -34,7 +34,7 @@ class PhotoViewSimpleScreen extends StatelessWidget {
               child: PhotoView(
                 basePosition: Alignment.centerLeft,
                 imageProvider: imageProvider,
-                // loadingBuilder:loadingChild ,
+                loadingBuilder: (ctx, e) => loadingChild,
                 // loadingChild: ,
                 backgroundDecoration: backgroundDecoration,
                 minScale: minScale,
