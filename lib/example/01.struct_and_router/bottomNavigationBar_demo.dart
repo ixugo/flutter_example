@@ -35,13 +35,11 @@ class _ExampleState extends State<BottomNavigationBarDemo> {
 
           items: [
             BottomNavigationBarItem(
-                icon: Icon(Icons.explore), title: Text("Explore")),
+                icon: Icon(Icons.explore), label: "Explore"),
             BottomNavigationBarItem(
-                icon: Icon(Icons.history), title: Text("History")),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.list), title: Text("List")),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.person), title: Text("My")),
+                icon: Icon(Icons.history), label: "History"),
+            BottomNavigationBarItem(icon: Icon(Icons.list), label: "List"),
+            BottomNavigationBarItem(icon: Icon(Icons.person), label: "My"),
           ]),
       body: list[this._currentIndex],
     );

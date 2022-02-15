@@ -1,6 +1,5 @@
 import 'dart:core';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_example/utils/InkWell_pictrue_util.dart';
 import 'package:flutter_example/utils/container_util.dart';
@@ -20,11 +19,12 @@ class _ExampleState extends State<ScaffolDemo> {
       child: Scaffold(
         appBar: AppBar(),
         bottomNavigationBar: BottomNavigationBar(items: [
+          BottomNavigationBarItem(icon: Icon(Icons.explore), label: "Explore"),
+          BottomNavigationBarItem(icon: Icon(Icons.history), label: "History"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.explore), title: Text("Explore")),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.history), title: Text("History")),
-          BottomNavigationBarItem(icon: Icon(Icons.list), title: Text("List")),
+            icon: Icon(Icons.list),
+            label: "List",
+          ),
         ]),
         body: Text("Scaffold"),
       ),
