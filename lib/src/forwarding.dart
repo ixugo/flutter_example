@@ -12,8 +12,9 @@ import 'package:sliding_up_panel/sliding_up_panel.dart';
 //  测试
 class NewForwarding extends StatefulWidget {
   // 将函数数组传递过来
-  NewForwarding({this.title = "NewPage", this.menu, Key key}) : super(key: key);
+  NewForwarding({this.title = "NewPage", required this.menu, super.key});
   final String title;
+
   final DataMenu menu;
 
   @override
@@ -90,7 +91,7 @@ class _NewForwardingState extends State<NewForwarding> {
           collapsed: Row(
             children: <Widget>[
               Expanded(
-                  child: FlatButton(
+                  child: TextButton(
                 child: Text("向上滑动查看菜单"),
                 onPressed: () {
                   model.openPanelState();

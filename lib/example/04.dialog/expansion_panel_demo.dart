@@ -9,7 +9,8 @@ class ExpansionPanelItem {
   final String headerText;
   final Widget body;
   bool isExpanded;
-  ExpansionPanelItem({this.headerText, this.body, this.isExpanded});
+  ExpansionPanelItem(
+      {required this.headerText, required this.body, required this.isExpanded});
 }
 
 class ExpansionPanelDemo extends StatefulWidget {
@@ -18,7 +19,7 @@ class ExpansionPanelDemo extends StatefulWidget {
 }
 
 class _ExpansionPanelDemoState extends State<ExpansionPanelDemo> {
-  List<ExpansionPanelItem> _expansionPanelItems;
+  late List<ExpansionPanelItem> _expansionPanelItems;
 
   @override
   void initState() {

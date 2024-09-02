@@ -40,7 +40,7 @@ class __MyInfoState extends State<PersionDemo1> {
               ),
               leading: BackButton(color: Colors.white),
               actions: [
-                FlatButton(
+                TextButton(
                     onPressed: null,
                     child: Text("编辑",
                         style: TextStyle(fontSize: 16, color: Colors.white)))
@@ -53,8 +53,8 @@ class __MyInfoState extends State<PersionDemo1> {
               alignment: Alignment.topCenter,
               padding: const EdgeInsets.only(top: 150),
               child: Stack(
+                clipBehavior: Clip.none,
                 alignment: Alignment.topCenter,
-                overflow: Overflow.visible,
                 children: <Widget>[
                   Container(
                     height: Apps.windowsHeight * 0.45,

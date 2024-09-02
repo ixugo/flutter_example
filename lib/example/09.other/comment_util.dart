@@ -44,17 +44,19 @@ class BottomInputDialog extends StatelessWidget {
               Expanded(
                 flex: 1,
                 child: Container(
-                    height: 35,
-                    margin: EdgeInsets.only(left: 5, right: 5),
-                    child: RaisedButton(
-                        onPressed: () {
-                          Navigator.pop(context);
-                        },
-                        child: Text(
-                          "发送",
-                          style: TextStyle(color: Colors.white),
-                        ),
-                        color: Color.fromRGBO(0, 151, 241, 1))),
+                  height: 35,
+                  margin: EdgeInsets.only(left: 5, right: 5),
+                  child: TextButton(
+                    onPressed: () {
+                      Navigator.pop(context);
+                    },
+                    child: Text(
+                      "发送",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    // color: Color.fromRGBO(0, 151, 241, 1),
+                  ),
+                ),
               )
             ]),
           )
@@ -68,16 +70,16 @@ class PopRoute extends PopupRoute {
   final Duration _duration = Duration(milliseconds: 300);
   Widget child;
 
-  PopRoute({@required this.child});
+  PopRoute({required this.child});
 
   @override
-  Color get barrierColor => null;
+  Color? get barrierColor => null;
 
   @override
   bool get barrierDismissible => true;
 
   @override
-  String get barrierLabel => null;
+  String? get barrierLabel => null;
 
   @override
   Widget buildPage(BuildContext context, Animation<double> animation,

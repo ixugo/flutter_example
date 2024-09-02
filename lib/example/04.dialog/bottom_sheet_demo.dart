@@ -77,12 +77,12 @@ class _BottomSheetDemoState extends State<BottomSheetDemo> {
               child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    RaisedButton(
+                    TextButton(
                       onPressed: _openBottomSheet,
                       child: Text("Open BottomSheet"),
                     ),
                     SizedBox(width: 24),
-                    RaisedButton(
+                    TextButton(
                       onPressed: _openModelBottomSheet,
                       child: Text("Model BottomSheet"),
                     ),

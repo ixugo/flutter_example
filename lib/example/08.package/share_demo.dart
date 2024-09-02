@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_example/utils/InkWell_pictrue_util.dart';
 import 'package:flutter_example/utils/container_util.dart';
-import 'package:share/share.dart';
+import 'package:share_plus/share_plus.dart';
 // import 'package:share/share.dart';
 
 class ShareDemo extends StatelessWidget {
@@ -13,7 +13,7 @@ class ShareDemo extends StatelessWidget {
       child: Column(children: <Widget>[
         MyText("Share  分享"),
         Card(
-          child: RaisedButton(
+          child: TextButton(
             onPressed: () {
               // 分享
               Share.share('作者博客 blog.golang.space');

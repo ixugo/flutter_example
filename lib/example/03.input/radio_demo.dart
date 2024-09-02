@@ -31,20 +31,20 @@ class _RadioDemoState extends State<RadioDemo> {
               //  int _radioGroupA = 0;
               groupValue: _radioGroupA,
               // 默认颜色
-              activeColor: Theme.of(context).accentColor,
+              activeColor: Colors.red,
               onChanged: (value) {
                 setState(() {
-                  _radioGroupA = value;
+                  _radioGroupA = value!;
                 });
               },
             ),
             Radio(
               value: 1,
               groupValue: _radioGroupA,
-              activeColor: Theme.of(context).accentColor,
+              activeColor: Colors.red,
               onChanged: (value) {
                 setState(() {
-                  _radioGroupA = value;
+                  _radioGroupA = value!;
                 });
               },
             ),
@@ -67,7 +67,7 @@ class _RadioDemoState extends State<RadioDemo> {
           selected: _radioGroupB == 0,
           onChanged: (value) {
             setState(() {
-              _radioGroupB = value;
+              _radioGroupB = value!;
             });
           },
         ),
@@ -80,7 +80,7 @@ class _RadioDemoState extends State<RadioDemo> {
           selected: _radioGroupB == 1,
           onChanged: (value) {
             setState(() {
-              _radioGroupB = value;
+              _radioGroupB = value!;
             });
           },
         ),

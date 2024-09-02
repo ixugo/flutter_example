@@ -8,12 +8,12 @@ import 'container_util.dart';
 class TwoLevelPageData {
   final String latter;
   final Widget func;
-  TwoLevelPageData(this.latter, {this.func});
+  TwoLevelPageData(this.latter, {required this.func});
 }
 
 // 将列表分组, 突出头部区域, 同时永远保持一个置顶
 class AddHeaderUtil extends StatefulWidget {
-  AddHeaderUtil(this.data, {Key key}) : super(key: key);
+  AddHeaderUtil(this.data, {super.key});
 
   final List data;
   @override

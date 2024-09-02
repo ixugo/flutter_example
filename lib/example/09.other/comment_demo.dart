@@ -23,9 +23,9 @@ class _ExampleState extends State<CommentDemo> {
               flex: 6,
               child: Container(
                   padding: EdgeInsets.all(7),
-                  child: OutlineButton(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(20))),
+                  child: OutlinedButton(
+                    // shape: RoundedRectangleBorder(
+                    // borderRadius: BorderRadius.all(Radius.circular(20))),
                     onPressed: () {
                       Navigator.push(
                           context, PopRoute(child: BottomInputDialog()));

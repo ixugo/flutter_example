@@ -9,7 +9,7 @@ class AboutDemo1 extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.grey[50],
-          brightness: Brightness.light,
+          // brightness: Brightness.light,
 
           title: Text(
             "关于我们",

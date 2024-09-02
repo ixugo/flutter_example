@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_example/utils/InkWell_pictrue_util.dart';
 import 'package:flutter_example/utils/container_util.dart';
 import 'package:flutter_example/utils/heightAndWidth.dart';
@@ -30,7 +31,6 @@ class _State extends State<FeedbackDemo1> {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Color.fromRGBO(245, 247, 250, 1),
-          brightness: Brightness.light,
 
           title: Text(
             "反馈意见",
@@ -39,6 +39,7 @@ class _State extends State<FeedbackDemo1> {
           elevation: 0,
           // backgroundColor: Colors.white,
           iconTheme: IconThemeData(color: Colors.black),
+          systemOverlayStyle: SystemUiOverlayStyle.dark,
         ),
         body: Builder(builder: (BuildContext context) {
           return Container(
@@ -66,26 +67,28 @@ class _State extends State<FeedbackDemo1> {
                     )),
                 SizedBox(height: 36.0),
                 Container(
-                    width: Apps.windowsWidth * 0.8,
-                    height: 40,
-                    child: RaisedButton(
-                        onPressed: () {
-                          print(feedbackController.text);
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                              content: Text("123"),
-                              duration: Duration(milliseconds: 5000)));
+                  width: Apps.windowsWidth * 0.8,
+                  height: 40,
+                  child: TextButton(
+                    onPressed: () {
+                      print(feedbackController.text);
+                      // Scaffold.of(context).showSnackBar(SnackBar(
+                      //     content: Text("123"),
+                      //     duration: Duration(milliseconds: 5000)));
 
-                          setState(() {
-                            feedbackController.text = "";
-                          });
-                        },
-                        child: Text(
-                          "提交",
-                          style: TextStyle(color: Colors.white, fontSize: 20),
-                        ),
-                        color: Theme.of(context).accentColor,
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(15.0))))
+                      setState(() {
+                        feedbackController.text = "";
+                      });
+                    },
+                    child: Text(
+                      "提交",
+                      style: TextStyle(color: Colors.white, fontSize: 20),
+                    ),
+                    // color: Theme.of(context).accentColor,
+                    // shape: RoundedRectangleBorder(
+                    // borderRadius: BorderRadius.circular(15.0))
+                  ),
+                ),
               ],
             ),
           );

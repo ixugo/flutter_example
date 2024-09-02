@@ -45,7 +45,7 @@ List list = [
 
 class _DataTableDemoState extends State<DataTableDemo> {
   // 排序下标
-  int _sortColumnIndex;
+  late int _sortColumnIndex;
   // 是否按从小到大排序
   bool _sortAscending = true;
 
@@ -103,11 +103,11 @@ class _DataTableDemoState extends State<DataTableDemo> {
                     // 选中状态
                     selected: v["select"],
                     // 选中后的回调
-                    onSelectChanged: (bool value) {
-                      setState(() {
-                        v["select"] = value;
-                      });
-                    },
+                    onSelectChanged: (bool? value) => {
+                          setState(() {
+                            v["select"] = value;
+                          }),
+                        },
                     // 当前行的每列数据
                     cells: [
                       // 当前行第一列

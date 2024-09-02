@@ -13,8 +13,8 @@ class TabbarDemo extends StatefulWidget {
 class _ExampleState extends State<TabbarDemo>
     with SingleTickerProviderStateMixin {
   // 控制器
-  TabController _tabController;
-  int currentIndex;
+  late TabController _tabController;
+  late int currentIndex;
 
   // 初始化
   @override

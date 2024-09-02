@@ -1,8 +1,6 @@
 import 'dart:core';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
 
 class ContainerText extends StatelessWidget {
   final String title;
@@ -42,7 +40,7 @@ class ContainerText extends StatelessWidget {
 
 class CardMargin extends StatelessWidget {
   CardMargin({this.child, this.padding = 0});
-  final Widget child;
+  final Widget? child;
   final double padding;
 
   @override
@@ -74,10 +72,13 @@ class MyTextDescortion extends StatelessWidget {
 }
 
 class MyText extends StatelessWidget {
-  MyText(this.title, {this.alignment});
+  MyText(
+    this.title, {
+    this.alignment,
+  });
 
   final String title;
-  final AlignmentGeometry alignment;
+  final AlignmentGeometry? alignment;
 
   @override
   Widget build(BuildContext context) {
@@ -100,10 +101,13 @@ class MyHtml extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.only(left: 20, right: 20, bottom: 20),
-      child: Html(
-        data: value,
-        // defaultTextStyle: Theme.of(context).accentTextTheme.body1,
+      child: Text(
+        value,
       ),
+      //  Html(
+      // data: value,
+      // defaultTextStyle: Theme.of(context).accentTextTheme.body1,
+      // ),
     );
   }
 }

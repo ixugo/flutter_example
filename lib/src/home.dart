@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:bot_toast/bot_toast.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_example/example/provider/my_provider.dart';
 import 'package:flutter_example/src/dataSource.dart';
@@ -15,7 +14,7 @@ import 'package:provider/provider.dart';
 
 class NewHomePage extends StatefulWidget {
   final String title;
-  NewHomePage({Key key, this.title}) : super(key: key);
+  NewHomePage({super.key, required this.title});
 
   @override
   _NewHomePageState createState() => _NewHomePageState();
@@ -145,11 +144,11 @@ class HomeTab1 extends StatelessWidget {
               enabledBorder: OutlineInputBorder(
                   // 线框
                   borderRadius: BorderRadius.circular(15.0), // 圆角
-                  borderSide: BorderSide(color: Colors.blue[50])), // 背景色
+                  borderSide: BorderSide(color: Colors.blue)), // 背景色
               focusedBorder: OutlineInputBorder(
                   // 聚焦后
                   borderRadius: BorderRadius.circular(15.0),
-                  borderSide: BorderSide(color: Colors.blue[200])),
+                  borderSide: BorderSide(color: Colors.blue)),
 
               suffix: SizedBox(
                 height: 21,
@@ -289,7 +288,7 @@ class MyGridViewPage extends StatelessWidget {
       body: GridView.count(
         crossAxisCount: 5,
         children: <Widget>[
-          FlatButton(
+          TextButton(
             child: Text("data"),
             onPressed: () {
               Navigator.of(context).push(

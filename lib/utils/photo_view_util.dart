@@ -3,16 +3,16 @@ import 'package:photo_view/photo_view.dart';
 
 class PhotoViewSimpleScreen extends StatelessWidget {
   const PhotoViewSimpleScreen({
-    this.imageProvider, //图片
+    required this.imageProvider, //图片
     this.loadingChild, //加载时的widget
     this.backgroundDecoration, //背景修饰
     this.minScale, //最大缩放倍数
     this.maxScale, //最小缩放倍数
-    this.heroTag, //hero动画tagid
+    required this.heroTag, //hero动画tagid
   });
   final ImageProvider imageProvider;
-  final Widget loadingChild;
-  final Decoration backgroundDecoration;
+  final Widget? loadingChild;
+  final BoxDecoration? backgroundDecoration;
   final dynamic minScale;
   final dynamic maxScale;
   final String heroTag;
@@ -34,7 +34,7 @@ class PhotoViewSimpleScreen extends StatelessWidget {
               child: PhotoView(
                 basePosition: Alignment.centerLeft,
                 imageProvider: imageProvider,
-                loadingBuilder: (ctx, e) => loadingChild,
+                loadingBuilder: (ctx, e) => loadingChild!,
                 // loadingChild: ,
                 backgroundDecoration: backgroundDecoration,
                 minScale: minScale,
@@ -67,7 +67,7 @@ class PhotoViewSimpleScreen extends StatelessWidget {
 
 class FadeRoute extends PageRouteBuilder {
   final Widget page;
-  FadeRoute({this.page})
+  FadeRoute({required this.page})
       : super(
           pageBuilder: (
             BuildContext context,

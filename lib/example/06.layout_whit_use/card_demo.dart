@@ -66,7 +66,7 @@ class _CardTheDemoState extends State<CardTheDemo> {
                   likeCount: 520,
                   onTap: onLikeButtonTapped,
                 ),
-                FlatButton(onPressed: () {}, child: Text("Next".toUpperCase())),
+                TextButton(onPressed: () {}, child: Text("Next".toUpperCase())),
               ])),
         ]),
       ),

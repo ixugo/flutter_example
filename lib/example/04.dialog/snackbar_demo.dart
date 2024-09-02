@@ -22,16 +22,16 @@ class _SnackbarDemoState extends State<SnackbarDemo> {
           child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                RaisedButton(
+                TextButton(
                   onPressed: () {
-                    Scaffold.of(context).showSnackBar(SnackBar(
-                      content: Text("123"),
-                      action: SnackBarAction(
-                          label: "OK",
-                          onPressed: () {
-                            // 无需任何内容, 点击会自动消失
-                          }),
-                    ));
+                    // Scaffold.of(context).showSnackBar(SnackBar(
+                    //   content: Text("123"),
+                    //   action: SnackBarAction(
+                    //       label: "OK",
+                    //       onPressed: () {
+                    //         // 无需任何内容, 点击会自动消失
+                    //       }),
+                    // ));
                   },
                   child: Text("SnackBar"),
                 )

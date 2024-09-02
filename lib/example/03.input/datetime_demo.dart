@@ -14,8 +14,8 @@ class DateTimeDemo extends StatefulWidget {
 
 class _DateTimeDemoState extends State<DateTimeDemo> {
   DateTime selectedDate = DateTime.now();
-  Future<Void> _selectDate() async {
-    final DateTime date = await showDatePicker(
+  Future<Void?> _selectDate() async {
+    final DateTime? date = await showDatePicker(
       context: context,
       initialDate: selectedDate, // 初始日期
       firstDate: DateTime(1950), // 选择日期最早的时间
@@ -31,8 +31,8 @@ class _DateTimeDemoState extends State<DateTimeDemo> {
   }
 
   TimeOfDay selectedTime = TimeOfDay(hour: 9, minute: 30);
-  Future<Void> _selectTime() async {
-    final TimeOfDay time =
+  Future<Void?> _selectTime() async {
+    final TimeOfDay? time =
         await showTimePicker(context: context, initialTime: selectedTime);
 
     if (time == null) return null;

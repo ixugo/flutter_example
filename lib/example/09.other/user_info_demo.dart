@@ -139,7 +139,7 @@ class _ExampleState extends State<UserInfoDemo> {
               ),
               leading: BackButton(color: Colors.white),
               actions: [
-                FlatButton(
+                TextButton(
                     onPressed: null,
                     child: Text("编辑",
                         style: TextStyle(fontSize: 16, color: Colors.white)))
@@ -154,9 +154,7 @@ class _ExampleState extends State<UserInfoDemo> {
               // 重叠
               child: Stack(
                 // 定位为
-                alignment: Alignment.topCenter,
-                // 超出背景的内容显示
-                overflow: Overflow.visible,
+                clipBehavior: Clip.none, alignment: Alignment.topCenter,
                 children: <Widget>[
                   // 文字内容
                   Container(

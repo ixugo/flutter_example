@@ -27,13 +27,13 @@ class _AlertDialogDemoState extends State<AlertDialogDemo> {
             title: Text("SimpleDialog"),
             content: Text("你确定退出吗?"),
             actions: <Widget>[
-              FlatButton(
+              TextButton(
                 onPressed: () {
                   Navigator.pop(context, Option.Cancel);
                 },
                 child: Text("Cancel"),
               ),
-              FlatButton(
+              TextButton(
                   onPressed: () {
                     Navigator.pop(context, Option.Ok);
                   },
@@ -71,7 +71,7 @@ class _AlertDialogDemoState extends State<AlertDialogDemo> {
               children: <Widget>[
                 MyText("选了 $_choice"),
                 SizedBox(width: 24),
-                RaisedButton(
+                TextButton(
                   onPressed: _openAlertDialog,
                   child: Text("Open AlertDialog"),
                 ),

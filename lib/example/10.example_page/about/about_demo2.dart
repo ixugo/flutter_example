@@ -7,7 +7,8 @@ class ExpansionPanelItem {
   final String headerText;
   final Widget body;
   bool isExpanded;
-  ExpansionPanelItem({this.headerText, this.body, this.isExpanded});
+  ExpansionPanelItem(
+      {required this.headerText, required this.body, required this.isExpanded});
 }
 
 // 实现类
@@ -95,7 +96,7 @@ class __HelpState extends State<HelpDemo2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        brightness: Brightness.light,
+        // brightness: Brightness.light,
 
         backgroundColor: Colors.grey[50],
 

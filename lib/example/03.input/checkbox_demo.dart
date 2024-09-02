@@ -26,10 +26,10 @@ class _CheckboxDemoState extends State<CheckboxDemo> {
             // bool checkA = true;
             value: checkA,
             // 激活后的颜色,默认由主题 accentColor 控制
-            activeColor: Theme.of(context).accentColor,
+            activeColor: Colors.red,
             onChanged: (value) {
               setState(() {
-                checkA = value;
+                checkA = value!;
               });
             }),
       ),
@@ -42,7 +42,7 @@ class _CheckboxDemoState extends State<CheckboxDemo> {
           value: checkB,
           onChanged: (value) {
             setState(() {
-              checkB = value;
+              checkB = value!;
             });
           },
           title: Text("Checkbox Item A"), // 标题
