@@ -21,10 +21,10 @@ packages:
     dependency: "direct main"
     description:
       name: bot_toast
-      sha256: "1a432d6e4bad2282615403134708b232ef68ae99b0b3d8604fca85699a75b4b5"
+      sha256: "6b93030a99a98335b8827ecd83021e92e885ffc61d261d3825ffdecdd17f3bdf"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "4.0.1"
+    version: "4.1.3"
   cached_network_image:
     dependency: "direct main"
     description:
@@ -356,10 +356,10 @@ packages:
     dependency: "direct main"
     description:
       name: photo_view
-      sha256: aedb4371e5bf67546ecd92aed341df714f9de5db7c417ce7538a91c2b43d931a
+      sha256: "1fc3d970a91295fbd1364296575f854c9863f225505c28c46e0a03e48960c75e"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.12.0"
+    version: "0.15.0"
   platform:
     dependency: "direct overridden"
     description:
