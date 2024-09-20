@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_example/example/provider/my_provider.dart';
 import 'package:flutter_example/src/dataSource.dart';

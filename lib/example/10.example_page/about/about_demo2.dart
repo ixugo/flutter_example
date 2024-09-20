@@ -54,7 +54,6 @@ class __HelpState extends State<HelpDemo2> {
         isExpanded: false),
   ];
 
-  @override
   Widget _question(BuildContext context) {
     return Container(
       child: Column(children: <Widget>[

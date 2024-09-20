@@ -83,9 +83,7 @@ class HomeTab1 extends StatelessWidget {
                   // }
                   // 将当前页面的下标传递, 用于比较
 
-                  if (model.pageIndexOfArray == null) {
-                    model.pageIndexOfArray = index;
-                  } else if (model.pageIndexOfArray != index) {
+                  if (model.pageIndexOfArray != index) {
                     model.menuIndex = 0;
                   }
                   // 翻转式卡片

@@ -14,7 +14,7 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.3.0"
+  sdk: ">=3.0.0"
 
 dependencies:
   # flip_card: ^0.4.4 # 翻转卡片
@@ -24,7 +24,7 @@ dependencies:
 
   # flutter_staggered_grid_view: ^0.2.7   # 瀑布流插件
 
-  cached_network_image: ^3.1.0 # 图片缓存
+  cached_network_image: ^3.4.1 # 图片缓存
 
   flutter_staggered_animations: "^1.0.0" # 列表动画
 
@@ -63,7 +63,8 @@ dev_dependencies:
     sdk: flutter
 
 dependency_overrides:
-  platform: ^3.0.0
+  platform: ^3.1.5
+  # platform: ^3.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

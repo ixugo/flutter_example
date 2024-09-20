@@ -1,6 +1,5 @@
 import 'dart:core';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_example/utils/InkWell_pictrue_util.dart';
 import 'package:flutter_example/utils/container_util.dart';
@@ -14,7 +13,9 @@ class _ExampleState extends State<BottomNavigationBarDemo> {
   int _currentIndex = 0; // 设置激活标签
   void _onTabHandler(int index) {
     // 默认返回 index, 调用 setState 来刷新页面
-    setState(() => {this._currentIndex = index});
+    setState(() {
+      this._currentIndex = index;
+    });
   }
 
   final List list = [

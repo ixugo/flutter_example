@@ -5,8 +5,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/rendering.dart';
 
 class Apps {
-  static EdgeInsets get winPadding => MediaQueryData.fromWindow(window).padding;
-  static Size get winSize => MediaQueryData.fromWindow(window).size;
+  static EdgeInsets get winPadding => MediaQueryData.fromView(window).padding;
+  static Size get winSize => MediaQueryData.fromView(window).size;
 
 //   获取 组件的宽高
 //   final size =MediaQuery.of(context).size;

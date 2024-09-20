@@ -30,7 +30,7 @@ class MyProvider with ChangeNotifier {
 
   // 页面切换时, 锁定数组下标
   // 解决切换不同页面时, 下标越界问题
-  late int pageIndexOfArray;
+  int pageIndexOfArray = 0;
 
   //  首页的底部工具栏切换
   int currentIndex = 0;

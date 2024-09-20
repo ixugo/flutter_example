@@ -3,14 +3,6 @@ import 'package:flutter_example/utils/InkWell_pictrue_util.dart';
 import 'package:flutter_example/utils/container_util.dart';
 
 class FloatingActionButtonDemo extends StatelessWidget {
-  final Widget _floatingActionButtonDemo = FloatingActionButton(
-    onPressed: () {},
-    child: Icon(Icons.add),
-    elevation: 0.0,
-    backgroundColor: Colors.black87,
-    // shape: BeveledRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
-  );
-
   final Widget _floatingActionButtonExtended = FloatingActionButton.extended(
     onPressed: () {},
     icon: Icon(Icons.add),

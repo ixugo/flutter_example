@@ -1,8 +1,6 @@
 import 'dart:core';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_example/example/provider/my_provider.dart';
 import 'package:flutter_example/utils/child_data_page_util.dart';
 import 'package:flutter_example/utils/heightAndWidth.dart';
